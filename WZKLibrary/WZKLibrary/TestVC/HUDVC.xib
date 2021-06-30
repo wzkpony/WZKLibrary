@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HUDVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ll2-jH-3b9">
+                    <rect key="frame" x="168" y="111" width="78" height="30"/>
+                    <state key="normal" title="showActive"/>
+                    <connections>
+                        <action selector="selectShowActiveButton:" destination="-1" eventType="touchUpInside" id="Jfb-Ru-viD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUD-W0-CAL">
+                    <rect key="frame" x="174" y="161" width="66" height="30"/>
+                    <state key="normal" title="showMsg"/>
+                    <connections>
+                        <action selector="selectShowMsgButton:" destination="-1" eventType="touchUpInside" id="prm-qy-Atw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fe-SG-pIR">
+                    <rect key="frame" x="333" y="56" width="50" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="0YM-D7-5Qd"/>
+                        <constraint firstAttribute="width" constant="50" id="OUa-kR-6g0"/>
+                    </constraints>
+                    <state key="normal" title="Hidden"/>
+                    <connections>
+                        <action selector="selectHiddenButton:" destination="-1" eventType="touchUpInside" id="pev-nz-mf7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ll2-jH-3b9" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="67" id="1mu-7a-pMH"/>
+                <constraint firstItem="4fe-SG-pIR" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="12" id="2DS-ec-s49"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="4fe-SG-pIR" secondAttribute="trailing" constant="31" id="3Hf-dP-hof"/>
+                <constraint firstItem="gUD-W0-CAL" firstAttribute="top" secondItem="ll2-jH-3b9" secondAttribute="bottom" constant="20" id="6PS-4N-f0F"/>
+                <constraint firstItem="ll2-jH-3b9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JKT-Ly-M6y"/>
+                <constraint firstItem="gUD-W0-CAL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LAo-vV-AF1"/>
+            </constraints>
+            <point key="canvasLocation" x="383" y="94"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_WZKLibrary {
+  umbrella header "Pods-WZKLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

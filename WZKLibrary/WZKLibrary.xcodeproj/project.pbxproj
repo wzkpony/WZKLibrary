@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D9B7D2A268C6F2E00945D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B7D29268C6F2E00945D13 /* AppDelegate.m */; };
+		1D9B7D30268C6F2E00945D13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B7D2F268C6F2E00945D13 /* ViewController.m */; };
+		1D9B7D33268C6F2E00945D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9B7D31268C6F2E00945D13 /* Main.storyboard */; };
+		1D9B7D35268C6F3100945D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9B7D34268C6F3100945D13 /* Assets.xcassets */; };
+		1D9B7D38268C6F3100945D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9B7D36268C6F3100945D13 /* LaunchScreen.storyboard */; };
+		1D9B7D3B268C6F3100945D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B7D3A268C6F3100945D13 /* main.m */; };
+		1D9B7D48268C73A500945D13 /* MBProgressHUD+LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B7D42268C73A500945D13 /* MBProgressHUD+LL.m */; };
+		1D9B7D49268C73A500945D13 /* MBProgressHUD+LL.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D9B7D44268C73A500945D13 /* MBProgressHUD+LL.bundle */; };
+		1D9B7D4A268C73A500945D13 /* MBProgressHUD+SGQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B7D46268C73A500945D13 /* MBProgressHUD+SGQRCode.m */; };
+		1D9B7D4B268C73A500945D13 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D9B7D47268C73A500945D13 /* MBProgressHUD.bundle */; };
+		1D9B7D50268C79FA00945D13 /* HUDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B7D4E268C79FA00945D13 /* HUDVC.m */; };
+		1D9B7D51268C79FA00945D13 /* HUDVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9B7D4F268C79FA00945D13 /* HUDVC.xib */; };
+		6B944A33BDD1E7F9389CD112 /* Pods_WZKLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCF9F0C0118BC721D6922A2 /* Pods_WZKLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D9B7D25268C6F2E00945D13 /* WZKLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZKLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9B7D28268C6F2E00945D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D9B7D29268C6F2E00945D13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D9B7D2E268C6F2E00945D13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D9B7D2F268C6F2E00945D13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D9B7D32268C6F2E00945D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D9B7D34268C6F3100945D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D9B7D37268C6F3100945D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D9B7D39268C6F3100945D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9B7D3A268C6F3100945D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D9B7D42268C73A500945D13 /* MBProgressHUD+LL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LL.m"; sourceTree = "<group>"; };
+		1D9B7D43268C73A500945D13 /* MBProgressHUD+SGQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+SGQRCode.h"; sourceTree = "<group>"; };
+		1D9B7D44268C73A500945D13 /* MBProgressHUD+LL.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "MBProgressHUD+LL.bundle"; sourceTree = "<group>"; };
+		1D9B7D45268C73A500945D13 /* MBProgressHUD+LL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LL.h"; sourceTree = "<group>"; };
+		1D9B7D46268C73A500945D13 /* MBProgressHUD+SGQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+SGQRCode.m"; sourceTree = "<group>"; };
+		1D9B7D47268C73A500945D13 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		1D9B7D4D268C79FA00945D13 /* HUDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDVC.h; sourceTree = "<group>"; };
+		1D9B7D4E268C79FA00945D13 /* HUDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDVC.m; sourceTree = "<group>"; };
+		1D9B7D4F268C79FA00945D13 /* HUDVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HUDVC.xib; sourceTree = "<group>"; };
+		5CD18886BE16121A0321821B /* Pods-WZKLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZKLibrary.release.xcconfig"; path = "Target Support Files/Pods-WZKLibrary/Pods-WZKLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		99C7D6337A9AB0F53632575E /* Pods-WZKLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZKLibrary.debug.xcconfig"; path = "Target Support Files/Pods-WZKLibrary/Pods-WZKLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		CCCF9F0C0118BC721D6922A2 /* Pods_WZKLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZKLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D9B7D22268C6F2E00945D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B944A33BDD1E7F9389CD112 /* Pods_WZKLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D9B7D1C268C6F2E00945D13 = {
+			isa = PBXGroup;
+			children = (
+				1D9B7D27268C6F2E00945D13 /* WZKLibrary */,
+				1D9B7D26268C6F2E00945D13 /* Products */,
+				36327687E7A394EE50AA2DF3 /* Pods */,
+				BB42F01BE2CF9611EFF96C2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D9B7D26268C6F2E00945D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D9B7D25268C6F2E00945D13 /* WZKLibrary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D9B7D27268C6F2E00945D13 /* WZKLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1D9B7D41268C73A500945D13 /* MBProgressHUD+LL */,
+				1D9B7D28268C6F2E00945D13 /* AppDelegate.h */,
+				1D9B7D29268C6F2E00945D13 /* AppDelegate.m */,
+				1D9B7D2E268C6F2E00945D13 /* ViewController.h */,
+				1D9B7D2F268C6F2E00945D13 /* ViewController.m */,
+				1D9B7D4C268C766800945D13 /* TestVC */,
+				1D9B7D31268C6F2E00945D13 /* Main.storyboard */,
+				1D9B7D34268C6F3100945D13 /* Assets.xcassets */,
+				1D9B7D36268C6F3100945D13 /* LaunchScreen.storyboard */,
+				1D9B7D39268C6F3100945D13 /* Info.plist */,
+				1D9B7D3A268C6F3100945D13 /* main.m */,
+			);
+			path = WZKLibrary;
+			sourceTree = "<group>";
+		};
+		1D9B7D41268C73A500945D13 /* MBProgressHUD+LL */ = {
+			isa = PBXGroup;
+			children = (
+				1D9B7D42268C73A500945D13 /* MBProgressHUD+LL.m */,
+				1D9B7D43268C73A500945D13 /* MBProgressHUD+SGQRCode.h */,
+				1D9B7D44268C73A500945D13 /* MBProgressHUD+LL.bundle */,
+				1D9B7D45268C73A500945D13 /* MBProgressHUD+LL.h */,
+				1D9B7D46268C73A500945D13 /* MBProgressHUD+SGQRCode.m */,
+				1D9B7D47268C73A500945D13 /* MBProgressHUD.bundle */,
+			);
+			path = "MBProgressHUD+LL";
+			sourceTree = "<group>";
+		};
+		1D9B7D4C268C766800945D13 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				1D9B7D4D268C79FA00945D13 /* HUDVC.h */,
+				1D9B7D4E268C79FA00945D13 /* HUDVC.m */,
+				1D9B7D4F268C79FA00945D13 /* HUDVC.xib */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
+		36327687E7A394EE50AA2DF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99C7D6337A9AB0F53632575E /* Pods-WZKLibrary.debug.xcconfig */,
+				5CD18886BE16121A0321821B /* Pods-WZKLibrary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB42F01BE2CF9611EFF96C2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCCF9F0C0118BC721D6922A2 /* Pods_WZKLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D9B7D24268C6F2E00945D13 /* WZKLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9B7D3E268C6F3100945D13 /* Build configuration list for PBXNativeTarget "WZKLibrary" */;
+			buildPhases = (
+				0864321B7C8001B6B05C21FB /* [CP] Check Pods Manifest.lock */,
+				1D9B7D21268C6F2E00945D13 /* Sources */,
+				1D9B7D22268C6F2E00945D13 /* Frameworks */,
+				1D9B7D23268C6F2E00945D13 /* Resources */,
+				0219313FF74F1E31BDBAD05E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZKLibrary;
+			productName = WZKLibrary;
+			productReference = 1D9B7D25268C6F2E00945D13 /* WZKLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D9B7D1D268C6F2E00945D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1D9B7D24268C6F2E00945D13 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 1D9B7D20268C6F2E00945D13 /* Build configuration list for PBXProject "WZKLibrary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D9B7D1C268C6F2E00945D13;
+			productRefGroup = 1D9B7D26268C6F2E00945D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D9B7D24268C6F2E00945D13 /* WZKLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D9B7D23268C6F2E00945D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9B7D51268C79FA00945D13 /* HUDVC.xib in Resources */,
+				1D9B7D38268C6F3100945D13 /* LaunchScreen.storyboard in Resources */,
+				1D9B7D35268C6F3100945D13 /* Assets.xcassets in Resources */,
+				1D9B7D4B268C73A500945D13 /* MBProgressHUD.bundle in Resources */,
+				1D9B7D33268C6F2E00945D13 /* Main.storyboard in Resources */,
+				1D9B7D49268C73A500945D13 /* MBProgressHUD+LL.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0219313FF74F1E31BDBAD05E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WZKLibrary/Pods-WZKLibrary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WZKLibrary/Pods-WZKLibrary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WZKLibrary/Pods-WZKLibrary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0864321B7C8001B6B05C21FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WZKLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9B7D21268C6F2E00945D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9B7D50268C79FA00945D13 /* HUDVC.m in Sources */,
+				1D9B7D30268C6F2E00945D13 /* ViewController.m in Sources */,
+				1D9B7D48268C73A500945D13 /* MBProgressHUD+LL.m in Sources */,
+				1D9B7D2A268C6F2E00945D13 /* AppDelegate.m in Sources */,
+				1D9B7D3B268C6F3100945D13 /* main.m in Sources */,
+				1D9B7D4A268C73A500945D13 /* MBProgressHUD+SGQRCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D9B7D31268C6F2E00945D13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D9B7D32268C6F2E00945D13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D9B7D36268C6F3100945D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D9B7D37268C6F3100945D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D9B7D3C268C6F3100945D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D9B7D3D268C6F3100945D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D9B7D3F268C6F3100945D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C7D6337A9AB0F53632575E /* Pods-WZKLibrary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PUB56GJAB8;
+				INFOPLIST_FILE = WZKLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongsi.hongsiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = HSAppDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D9B7D40268C6F3100945D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD18886BE16121A0321821B /* Pods-WZKLibrary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PUB56GJAB8;
+				INFOPLIST_FILE = WZKLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongsi.hongsiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = HSAppDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9B7D20268C6F2E00945D13 /* Build configuration list for PBXProject "WZKLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9B7D3C268C6F3100945D13 /* Debug */,
+				1D9B7D3D268C6F3100945D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9B7D3E268C6F3100945D13 /* Build configuration list for PBXNativeTarget "WZKLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9B7D3F268C6F3100945D13 /* Debug */,
+				1D9B7D40268C6F3100945D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D9B7D1D268C6F2E00945D13 /* Project object */;
+}
