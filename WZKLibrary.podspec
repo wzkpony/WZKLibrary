@@ -17,17 +17,18 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WZKLibrary"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of WZKLibrary."
+  spec.summary      = "WZKLibrary是一款iOS开发常用工具."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
+
   spec.description  =  "WZKLibrary是一款iOS开发常用工具，以组建方式存在，目前版本逐渐完善。
 			WZKLibrary是公共组建，从而提高工作效率。"
-
   spec.homepage     = "https://github.com/wzkpony/WZKLibrary"
+
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +39,9 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT (example)"
+
+   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,7 +54,8 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "WPony" => "" }
+  spec.author             = { "Pony" => "1477867638@qq.com" }
+
   # Or just: spec.author    = "WPony"
   # spec.authors            = { "WPony" => "" }
   # spec.social_media_url   = "https://twitter.com/WPony"
@@ -63,8 +66,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "9.0"
+   spec.platform     = :ios
+   spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -90,14 +93,14 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
   # HUD目录
     spec.subspec 'AppConfig' do |ss|
-    ss.source_files = '/WZKLibrary/WZKLibrary/MBProgressHUD+LL/*.{h,m}'
+    ss.source_files = 'WZKLibrary/WZKLibrary/MBProgressHUD+LL/*.{h,m}'
     end
 
 
@@ -113,7 +116,7 @@ Pod::Spec.new do |spec|
   # spec.resources = "Resources/*.png"
 
     spec.resources    = [
-     '/WZKLibrary/WZKLibrary/MBProgressHUD+LL/*.bundle'
+     'WZKLibrary/WZKLibrary/MBProgressHUD+LL/*.bundle'
     ]
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"

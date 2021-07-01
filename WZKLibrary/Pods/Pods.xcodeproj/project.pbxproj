@@ -637,7 +637,7 @@
 		5CDAE5208DF938A99BAA19A0480E05DF /* UIFont+JKTTF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+JKTTF.h"; path = "JKCategories/UIKit/UIFont/UIFont+JKTTF.h"; sourceTree = "<group>"; };
 		5D3F648A6F9F2381B1741D8D4B1F1FA0 /* UILabel+JKAutomaticWriting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+JKAutomaticWriting.h"; path = "JKCategories/UIKit/UILable/UILabel+JKAutomaticWriting.h"; sourceTree = "<group>"; };
 		5E43487989BABAACA91F7779986C4B03 /* UIImage+JKAnimatedGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+JKAnimatedGIF.h"; path = "JKCategories/UIKit/UIImage/UIImage+JKAnimatedGIF.h"; sourceTree = "<group>"; };
-		5EB0B36ED932A7E74F0E3A63A9EC75BC /* Pods_WZKLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZKLibrary.framework; path = "Pods-WZKLibrary.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB0B36ED932A7E74F0E3A63A9EC75BC /* Pods_WZKLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZKLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDDA86964041EC3BF834AE4245E5CEF /* UIApplication+JKKeyboardFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+JKKeyboardFrame.m"; path = "JKCategories/UIKit/UIApplication/UIApplication+JKKeyboardFrame.m"; sourceTree = "<group>"; };
 		5F4E97F5C80E3CD89390FFB68FE4D8CA /* UIWebView+JKStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+JKStyle.h"; path = "JKCategories/UIKit/UIWebView/UIWebView+JKStyle.h"; sourceTree = "<group>"; };
 		5F8C9360B13063ECEE06D57B8F6AE8B2 /* JKMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JKMapKit.h; path = JKCategories/MapKit/JKMapKit.h; sourceTree = "<group>"; };
@@ -714,7 +714,7 @@
 		89B6382D0FC6C2BE3F22886970D14B1E /* UITextView+JKInputLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+JKInputLimit.m"; path = "JKCategories/UIKit/UITextView/UITextView+JKInputLimit.m"; sourceTree = "<group>"; };
 		8A1C9C9862AAEF9690D9C566AD9B3A68 /* CALayer+JKBorderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+JKBorderColor.m"; path = "JKCategories/QuartzCore/CALayer/CALayer+JKBorderColor.m"; sourceTree = "<group>"; };
 		8A57E4972D28C8DF88EFF4A915419004 /* UIImageView+JKGeometryConversion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+JKGeometryConversion.m"; path = "JKCategories/UIKit/UIImageView/UIImageView+JKGeometryConversion.m"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE0B213F0023C7B655431FBF0A4318B /* CLLocation+JKCH1903.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+JKCH1903.m"; path = "JKCategories/CoreLocation/CLLocation/CLLocation+JKCH1903.m"; sourceTree = "<group>"; };
 		8D26D6704ACAFCA521C5A4BC4FABA9AA /* MKMapView+JKMoveLogo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+JKMoveLogo.m"; path = "JKCategories/MapKit/MKMapView/MKMapView+JKMoveLogo.m"; sourceTree = "<group>"; };
 		8DAC93395B9A658DC54884967773E9A5 /* UITextField+JKSelect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JKSelect.m"; path = "JKCategories/UIKit/UITextField/UITextField+JKSelect.m"; sourceTree = "<group>"; };
@@ -738,7 +738,7 @@
 		9D353ED2342C2E2EB5D6616A8480804C /* NSDate+JKCupertinoYankee.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JKCupertinoYankee.m"; path = "JKCategories/Foundation/NSDate/NSDate+JKCupertinoYankee.m"; sourceTree = "<group>"; };
 		9D3C5FFA52F22C28E82478382E8FE0BA /* NSDate+JKInternetDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JKInternetDateTime.m"; path = "JKCategories/Foundation/NSDate/NSDate+JKInternetDateTime.m"; sourceTree = "<group>"; };
 		9D81A2A7BCD1350D0E59072CD005E649 /* UIButton+JKBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+JKBadge.m"; path = "JKCategories/UIKit/UIButton/UIButton+JKBadge.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC40974427265C975D7D4BF9606C1B7 /* UIDevice+JKHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+JKHardware.m"; path = "JKCategories/UIKit/UIDevice/UIDevice+JKHardware.m"; sourceTree = "<group>"; };
 		9DF86E4582677F9EA28FCB538DB97A7A /* UIImageView+JKBetterFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+JKBetterFace.m"; path = "JKCategories/UIKit/UIImageView/UIImageView+JKBetterFace.m"; sourceTree = "<group>"; };
 		9F22755BA84A8F4D7D354D3D98838026 /* NSManagedObjectContext+JKObjectClear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+JKObjectClear.h"; path = "JKCategories/CoreData/NSManagedObjectContext/NSManagedObjectContext+JKObjectClear.h"; sourceTree = "<group>"; };
@@ -829,7 +829,7 @@
 		D078B10341F67991718ACFCCBA85220F /* UINavigationItem+JKLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+JKLoading.h"; path = "JKCategories/UIKit/UINavigationItem/UINavigationItem+JKLoading.h"; sourceTree = "<group>"; };
 		D0AAFE1BE220C5ABED7742D0082CB992 /* NSString+JKMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JKMatcher.m"; path = "JKCategories/Foundation/NSString/NSString+JKMatcher.m"; sourceTree = "<group>"; };
 		D0CB4AA86E02BE4B0FCA1628D9FDC049 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1AB33DB71AD6EAAE09B874D8AB0F77A /* JKCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKCategories.framework; path = JKCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AB33DB71AD6EAAE09B874D8AB0F77A /* JKCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1ED5CDDCC99A247D4EFABFEE6685A91 /* NSUserDefaults+JKiCloudSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+JKiCloudSync.h"; path = "JKCategories/Foundation/NSUserDefaults/NSUserDefaults+JKiCloudSync.h"; sourceTree = "<group>"; };
 		D207A37C7AE6777191F283CD407465D1 /* NSData+JKEncrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+JKEncrypt.m"; path = "JKCategories/Foundation/NSData/NSData+JKEncrypt.m"; sourceTree = "<group>"; };
 		D388050ED06DF5E667B7C755DC49FB86 /* NSObject+JKAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JKAssociatedObject.h"; path = "JKCategories/Foundation/NSObject/NSObject+JKAssociatedObject.h"; sourceTree = "<group>"; };
@@ -1006,7 +1006,6 @@
 				0F91E63DB20039B8F0380089D892DDB8 /* Support Files */,
 				CE340229F021CDAE581F540D3D18F273 /* UIKit */,
 			);
-			name = JKCategories;
 			path = JKCategories;
 			sourceTree = "<group>";
 		};
@@ -1765,7 +1764,6 @@
 				F746CBB746648DFA422F8F3FDE622DA1 /* MBProgressHUD.m */,
 				A186C71AE6EE41AF43213F8298300FC1 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -2777,6 +2775,7 @@
 				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2815,6 +2814,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2851,6 +2851,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2884,6 +2885,7 @@
 				PRODUCT_NAME = JKCategories;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2917,6 +2919,7 @@
 				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2950,6 +2953,7 @@
 				PRODUCT_NAME = JKCategories;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
