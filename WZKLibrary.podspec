@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WZKLibrary"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0"
   spec.summary      = "WZKLibrary是一款iOS开发常用工具."
 
   # This description is used to generate tags and improve search results.
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/wzkpony/WZKLibrary.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/wzkpony/WZKLibrary.git", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -99,7 +99,7 @@ Pod::Spec.new do |spec|
   # spec.public_header_files = "Classes/**/*.h"
 
 # HUD目录
-    spec.subspec 'AppConfig' do |ss|
+    spec.subspec 'HUD' do |ss|
     ss.source_files = 'WZKLibrary/WZKLibrary/MBProgressHUD+LL/*.{h,m}'
     end
 
@@ -116,7 +116,7 @@ Pod::Spec.new do |spec|
 
 #Categories目录
     spec.subspec 'Categories' do |ss|
-    #ss.dependency 'WZKLibrary/AppConfig'
+    ss.dependency 'WZKLibrary/AppConfig'
     ss.dependency 'WZKLibrary/HUD'
     ss.source_files = 'WZKLibrary/WZKLibrary/Categories/**/*.{h,m}','WZKLibrary/WZKLibrary/Categories/*.{h,m}'
     end

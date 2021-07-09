@@ -166,6 +166,10 @@
 		1D9B7D4D268C79FA00945D13 /* HUDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDVC.h; sourceTree = "<group>"; };
 		1D9B7D4E268C79FA00945D13 /* HUDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDVC.m; sourceTree = "<group>"; };
 		1D9B7D4F268C79FA00945D13 /* HUDVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HUDVC.xib; sourceTree = "<group>"; };
+		1DA40D3D2698495B00711ED5 /* BaseUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUI.h; sourceTree = "<group>"; };
+		1DA40D3E26984AE200711ED5 /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		1DA40D3F26984B6500711ED5 /* Categories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		1DA40D4026984D1100711ED5 /* WZKLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZKLibrary.h; sourceTree = "<group>"; };
 		5CD18886BE16121A0321821B /* Pods-WZKLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZKLibrary.release.xcconfig"; path = "Target Support Files/Pods-WZKLibrary/Pods-WZKLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		99C7D6337A9AB0F53632575E /* Pods-WZKLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZKLibrary.debug.xcconfig"; path = "Target Support Files/Pods-WZKLibrary/Pods-WZKLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		CCCF9F0C0118BC721D6922A2 /* Pods_WZKLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZKLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,10 +190,11 @@
 		1D370F3F269836DF003EB452 /* BaseUI */ = {
 			isa = PBXGroup;
 			children = (
+				1DA40D3D2698495B00711ED5 /* BaseUI.h */,
 				1D370F49269836DF003EB452 /* BaseTableViewCell.h */,
 				1D370F40269836DF003EB452 /* BaseTableViewCell.m */,
 				1D370F41269836DF003EB452 /* BaseTabController.h */,
-				1D370F44269836DF003EB452 /* BaseViewController.m */,
+				1D370F48269836DF003EB452 /* BaseTabController.m */,
 				1D370F4E269836DF003EB452 /* BaseNavigationController.h */,
 				1D370F45269836DF003EB452 /* BaseNavigationController.m */,
 				1D370F4C269836DF003EB452 /* HLSwitch.h */,
@@ -197,7 +202,7 @@
 				1D370F4D269836DF003EB452 /* JMPageVC.h */,
 				1D370F47269836DF003EB452 /* JMPageVC.m */,
 				1D370F4F269836DF003EB452 /* BaseViewController.h */,
-				1D370F48269836DF003EB452 /* BaseTabController.m */,
+				1D370F44269836DF003EB452 /* BaseViewController.m */,
 				1D370F4A269836DF003EB452 /* APPWebVC.h */,
 				1D370F43269836DF003EB452 /* APPWebVC.m */,
 				1D370F4B269836DF003EB452 /* BaseView.h */,
@@ -221,6 +226,7 @@
 				1D8EA8E42698351A00B06E3E /* ButtonCategory */,
 				1D8EA8E72698351A00B06E3E /* NSData+Base64.m */,
 				1D8EA8E82698351A00B06E3E /* NSObjectCateGories */,
+				1DA40D3F26984B6500711ED5 /* Categories.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -350,6 +356,7 @@
 				1D8EA9172698359000B06E3E /* ColorConfig.h */,
 				1D8EA9182698359000B06E3E /* CustomConst.h */,
 				1D8EA9192698359000B06E3E /* RequestPath.h */,
+				1DA40D3E26984AE200711ED5 /* AppConfig.h */,
 			);
 			path = AppConfig;
 			sourceTree = "<group>";
@@ -375,6 +382,7 @@
 		1D9B7D27268C6F2E00945D13 /* WZKLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				1DA40D4026984D1100711ED5 /* WZKLibrary.h */,
 				1D370F3F269836DF003EB452 /* BaseUI */,
 				1D8EA9132698359000B06E3E /* AppConfig */,
 				1D8EA8B72698351A00B06E3E /* Categories */,

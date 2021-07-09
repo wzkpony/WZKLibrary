@@ -6,7 +6,7 @@
 //
 
 #import "HUDVC.h"
-#import "MBProgressHUD+LL.h"
+#import "WZKLibrary.h"
 @interface HUDVC ()
 
 @end
