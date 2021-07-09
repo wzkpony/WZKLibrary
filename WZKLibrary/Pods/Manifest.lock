@@ -1,4 +1,5 @@
 PODS:
+  - BabyBluetooth (0.7.0)
   - JKCategories (1.8.1):
     - JKCategories/CoreData (= 1.8.1)
     - JKCategories/CoreLocation (= 1.8.1)
@@ -142,21 +143,44 @@ PODS:
   - JKCategories/UIKit/UIWebView (1.8.1):
     - JKCategories/UIKit/UIColor
   - JKCategories/UIKit/UIWindow (1.8.1)
+  - LEEAlert (1.2.1)
+  - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
+  - SAMKeychain (1.5.3)
+  - WebViewJavascriptBridge (6.0.3)
+  - WMPageController (2.3.0)
 
 DEPENDENCIES:
+  - BabyBluetooth
   - JKCategories
+  - LEEAlert (= 1.2.1)
+  - Masonry
   - MBProgressHUD
+  - SAMKeychain
+  - WebViewJavascriptBridge (~> 6.0)
+  - WMPageController (= 2.3.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - BabyBluetooth
     - JKCategories
+    - LEEAlert
+    - Masonry
     - MBProgressHUD
+    - SAMKeychain
+    - WebViewJavascriptBridge
+    - WMPageController
 
 SPEC CHECKSUMS:
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
   JKCategories: d5fecfa4f790685ea20daea319f74a8701d4c3ab
+  LEEAlert: 325078be70d9234e318d69703ba2f2cd01d8974a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WMPageController: 9f219bb8912a1a1f51af11fde61e2682a7b7e7f2
 
-PODFILE CHECKSUM: 14a7553d8a223785ead991009c7969738e3350c4
+PODFILE CHECKSUM: 194660956c6dbac4b12fdb53416929ff809b338e
 
 COCOAPODS: 1.10.0

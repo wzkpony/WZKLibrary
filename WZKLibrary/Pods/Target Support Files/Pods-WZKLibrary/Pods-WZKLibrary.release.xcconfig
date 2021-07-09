@@ -1,9 +1,9 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JKCategories" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BabyBluetooth" "${PODS_CONFIGURATION_BUILD_DIR}/JKCategories" "${PODS_CONFIGURATION_BUILD_DIR}/LEEAlert" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SAMKeychain" "${PODS_CONFIGURATION_BUILD_DIR}/WMPageController" "${PODS_CONFIGURATION_BUILD_DIR}/WebViewJavascriptBridge"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JKCategories/JKCategories.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BabyBluetooth/BabyBluetooth.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JKCategories/JKCategories.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LEEAlert/LEEAlert.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SAMKeychain/SAMKeychain.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WMPageController/WMPageController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -l"z" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "Foundation" -framework "JKCategories" -framework "MBProgressHUD" -framework "MapKit" -framework "QuartzCore" -framework "Security" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -l"z" -framework "BabyBluetooth" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "Foundation" -framework "JKCategories" -framework "LEEAlert" -framework "MBProgressHUD" -framework "MapKit" -framework "Masonry" -framework "QuartzCore" -framework "SAMKeychain" -framework "Security" -framework "UIKit" -framework "WMPageController" -framework "WebKit" -framework "WebViewJavascriptBridge"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

@@ -1,3 +1,9 @@
 ${PODS_ROOT}/Target Support Files/Pods-WZKLibrary/Pods-WZKLibrary-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BabyBluetooth/BabyBluetooth.framework
 ${BUILT_PRODUCTS_DIR}/JKCategories/JKCategories.framework
+${BUILT_PRODUCTS_DIR}/LEEAlert/LEEAlert.framework
 ${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework
+${BUILT_PRODUCTS_DIR}/WMPageController/WMPageController.framework
+${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework

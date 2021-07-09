@@ -98,10 +98,31 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 
-  # HUD目录
+# HUD目录
     spec.subspec 'AppConfig' do |ss|
     ss.source_files = 'WZKLibrary/WZKLibrary/MBProgressHUD+LL/*.{h,m}'
     end
+
+#BaseUI目录
+    spec.subspec 'BaseUI' do |ss|
+    ss.dependency 'WZKLibrary/AppConfig'
+    ss.source_files = 'WZKLibrary/WZKLibrary/BaseUI/*.{h,m}'
+    end
+
+#AppConfig目录
+    spec.subspec 'AppConfig' do |ss|
+    ss.source_files = 'WZKLibrary/WZKLibrary/AppConfig/*.{h,m}'
+    end
+
+#Categories目录
+    spec.subspec 'Categories' do |ss|
+    #ss.dependency 'WZKLibrary/AppConfig'
+    ss.dependency 'WZKLibrary/HUD'
+    ss.source_files = 'WZKLibrary/WZKLibrary/Categories/**/*.{h,m}','WZKLibrary/WZKLibrary/Categories/*.{h,m}'
+    end
+
+
+
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,7 +137,8 @@ Pod::Spec.new do |spec|
   # spec.resources = "Resources/*.png"
 
     spec.resources    = [
-     'WZKLibrary/WZKLibrary/MBProgressHUD+LL/*.bundle'
+     'WZKLibrary/WZKLibrary/MBProgressHUD+LL/*.bundle',
+'WZKLibrary/WZKLibrary/Categories/NumberCalculate/resource/*png'
     ]
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -149,5 +171,10 @@ Pod::Spec.new do |spec|
 #第三方库    
 spec.dependency "JKCategories"
 spec.dependency "MBProgressHUD"
+spec.dependency "LEEAlert", '1.2.1'
+spec.dependency "SAMKeychain"
+spec.dependency "Masonry"
+spec.dependency "WMPageController", '2.3.0'
+spec.dependency "WebViewJavascriptBridge", '~> 6.0'
 
 end
